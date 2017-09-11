@@ -4,13 +4,15 @@
     android:layout_height="match_parent">
 
     <Button
-        android:id="@+id/button_act01_start"
+        android:id="@+id/button_download"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="开始下载" />
+        android:text="开始下载"
+        android:onClick="startDownload"
+        />
     <TextView
-        android:id="@+id/tv_act01"
+        android:id="@+id/tv_background"
         android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
